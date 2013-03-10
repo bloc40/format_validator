@@ -28,7 +28,7 @@ describe 'UrlFormatValidator' do
           subject.url = _url
           subject.valid?.must_equal false
           subject.errors.messages.size.must_equal 1
-          subject.errors.messages[:url].must_equal ['is not a valid url']
+          subject.errors.messages[:url].must_equal ['is not valid']
         end
       end
     end

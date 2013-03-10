@@ -26,7 +26,7 @@ describe 'EmailFormatValidator' do
           subject.email = invalid_email
           subject.valid?.must_equal false
           subject.errors.messages.size.must_equal 1
-          subject.errors.messages[:email].must_equal ['is not a valid email']
+          subject.errors.messages[:email].must_equal ['is not valid']
         end
       end
     end
