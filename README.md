@@ -1,6 +1,6 @@
 # FormatValidator
 
-[![Build Status](https://travis-ci.org/bloc40/format_validator.png?branch=master)](https://travis-ci.org/bloc40/format_validator)
+[![Build Status](https://travis-ci.org/bloc40/format_validator.png?branch=master)](https://travis-ci.org/bloc40/format_validator) [![Code Climate](https://codeclimate.com/github/bloc40/format_validator.png)](https://codeclimate.com/github/bloc40/format_validator)t_validator)
 
 ## Installation
 
