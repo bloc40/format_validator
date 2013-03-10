@@ -1,4 +1,4 @@
-require_relative 'spec_helper'
+require_relative '../spec_helper'
 
 describe 'ZipCodeFormatValidator' do
   describe '#validate_each' do
