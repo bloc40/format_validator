@@ -4,8 +4,8 @@ describe 'EmailFormatValidator' do
   describe '#validate_each' do
     let(:klass) do
       Class.new do
-        attr_accessor :email
         include ActiveModel::Validations
+        attr_accessor :email
         validates :email, email_format: true
       end
     end

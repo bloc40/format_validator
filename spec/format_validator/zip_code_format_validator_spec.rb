@@ -4,8 +4,8 @@ describe 'ZipCodeFormatValidator' do
   describe '#validate_each' do
     let(:klass) do
       Class.new do
-        attr_accessor :zip_code
         include ActiveModel::Validations
+        attr_accessor :zip_code
         validates :zip_code, zip_code_format: true
       end
     end

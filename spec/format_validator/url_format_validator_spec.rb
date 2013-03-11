@@ -4,8 +4,8 @@ describe 'UrlFormatValidator' do
   describe '#validate_each' do
     let(:klass) do
       Class.new do
-        attr_accessor :url
         include ActiveModel::Validations
+        attr_accessor :url
         validates :url, url_format: true
       end
     end
