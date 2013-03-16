@@ -1,0 +1,7 @@
+en:
+  form:
+    errors:
+      date: must be in the future
+      email: is invalid
+      url: is invalid
+      zip_code: is invalid

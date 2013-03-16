@@ -28,7 +28,7 @@ describe 'ZipCodeFormatValidator' do
           subject.zip_code = invalid_zip_code
           subject.valid?.must_equal false
           subject.errors.messages.size.must_equal 1
-          subject.errors.messages[:zip_code].must_equal ['is not valid']
+          subject.errors.messages[:zip_code].must_equal ['is invalid']
         end
       end
     end
