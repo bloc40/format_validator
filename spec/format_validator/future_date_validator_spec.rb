@@ -29,6 +29,12 @@ describe 'FutureDateValidator' do
         subject.errors.messages.size.must_equal 1
         subject.errors.messages[:expiration_date].must_equal ['must be in the future']
       end
+
+      it 'should not blow up if the expirate date is nil' do
+        subject.valid?.must_equal false
+        subject.errors.messages.size.must_equal 1
+        subject.errors.messages[:expiration_date].must_equal ['must be in the future']
+      end
     end
   end
 end
