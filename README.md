@@ -24,10 +24,8 @@ As of today the gem validates only email, url, and zip_code.
 validates :email, email_format: true
 validates :url, url_format: true
 validates :zip_code, zip_code_format: true
+validates :expiration_date, future_date: true
 ```
-## TODO
-
-Add more validators.
 
 ## Contributing
 
