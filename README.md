@@ -12,17 +12,12 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install format_validator
-
 ## Usage
-
-As of today the gem validates only email, url, and zip_code.
 
 ``` ruby
 validates :email, email_format: true
 validates :url, url_format: true
+validates :hostname, hostname_format: true
 validates :zip_code, zip_code_format: true
 validates :expiration_date, future_date: true
 ```

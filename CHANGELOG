@@ -9,3 +9,9 @@
 ## v0.0.3
 
 * Minor fix for future date validator
+
+## v0.0.4
+
+* Validate hostname
+* Update README
+* Minor fix for url validator regex

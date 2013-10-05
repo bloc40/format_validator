@@ -4,4 +4,5 @@ en:
       date: must be in the future
       email: is invalid
       url: is invalid
+      hostname: is invalid
       zip_code: is invalid
