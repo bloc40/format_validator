@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = FormatValidator::VERSION
   spec.authors       = ['Jamal El Milahi']
   spec.email         = ['jamal@elmilahi.com']
-  spec.description   = %q{Active Model missing format validators}
+  spec.description   = %q{Active Model's missing format validators}
   spec.summary       = %q{format_validator is a gem that adds the missing format validators to Active Model}
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/bloc40/format_validator'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
