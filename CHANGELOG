@@ -15,3 +15,10 @@
 * Validate hostname
 * Update README
 * Minor fix for url validator regex
+
+
+## v0.0.5
+
+* Add validations for zip code short format
+* Validate SSN
+* Change regex to be treated as string

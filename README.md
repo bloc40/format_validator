@@ -19,7 +19,9 @@ validates :email, email_format: true
 validates :url, url_format: true
 validates :hostname, hostname_format: true
 validates :zip_code, zip_code_format: true
+validates :zip_code, zip_code_short_format: true
 validates :expiration_date, future_date: true
+validates :ssn, ssn_format: true
 ```
 
 ## Contributing
