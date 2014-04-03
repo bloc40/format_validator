@@ -22,3 +22,7 @@
 * Add validations for zip code short format
 * Validate SSN
 * Change regex to be treated as string
+
+## v0.0.6
+
+* Validate the company tax id
