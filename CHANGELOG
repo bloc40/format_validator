@@ -26,3 +26,7 @@
 ## v0.0.6
 
 * Validate the company tax id
+
+## v0.0.7
+
+* Validate the bank routing number

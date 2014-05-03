@@ -1,6 +1,7 @@
 en:
   form:
     errors:
+      bank_routing_number: is invalid
       date: must be in the future
       email: is invalid
       hostname: is invalid

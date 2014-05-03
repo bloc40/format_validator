@@ -23,9 +23,9 @@ describe 'CompanyTaxIdFormatValidator' do
     end
 
     describe 'invalid' do
-      ['123-456789', '1234567xx', '123 45 6789', '123', '1234567890'].each do |invalid_ssn|
-        it "should add error when ssn is #{invalid_ssn}" do
-          subject.tax_id = invalid_ssn
+      ['123-456789', '1234567xx', '123 45 6789', '123', '1234567890'].each do |invalid_tax_id|
+        it "should add error when tax id is #{invalid_tax_id}" do
+          subject.tax_id = invalid_tax_id
           subject.valid?.must_equal false
           subject.errors.messages.size.must_equal 1
           subject.errors.messages[:tax_id].must_equal ['is invalid']
